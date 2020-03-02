@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1573550111 source:d:\zero_judge\c++\split\main.cpp
+	<iostream>
+	<sstream>
+	<string>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1574369264 source:d:\zero_judge\cpp\a017\main.cpp
+	<iostream>
+	<sstream>
+	<stack>
+

@@ -1,0 +1,31 @@
+score=int(input('請輸入分數: '))
+level=score
+{
+  10:lambda:print('perfect'),
+  9:lambda:print('A'),
+  8:lambda:print('B'),
+  7:lambda:print('C'),
+  6:lambda:print('D')
+}.get(level,"E")()
+
+def switch_test_item(item):
+    switcher = {
+        "CPU": 0,
+        "Memory":1,
+        "BIOSVER":2,
+        "FAN":3,
+        "BIOSSETUP":4,
+    }
+    return switcher.get(item,"nothing")
+
+ss="IVXLCDM"
+output={
+'I':1,
+'V':5,
+'X':10,
+'L':50,
+'C':100,
+'D':500,
+'M':1000
+}
+print(output.get(ss[1]))
